@@ -105,6 +105,7 @@ footer span a:hover {
 
 .img-carousel {
     height: 350px;
+    border-radius: 10px;
 }
 
 .laterel-right-side-ul-index {
@@ -113,6 +114,7 @@ footer span a:hover {
     padding-bottom: 15px;
     display: grid;
      place-items: center;
+     border-radius: 10px;
 }
 
 .encomendarbtn-detalhe-product:hover {
