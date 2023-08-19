@@ -16,6 +16,10 @@ body {
     text-align: center;
 }
 
+.div-index-side-col {
+    background-color: white;
+}
+
 footer {
     background: crimson;
     padding: 20px 23px;
@@ -99,7 +103,29 @@ footer span a:hover {
     border-color: crimson;
 }
 
+.img-carousel {
+    height: 350px;
+}
+
+.laterel-right-side-ul-index {
+    background-color: white; 
+    padding: 10px;
+    padding-bottom: 15px;
+    display: grid;
+     place-items: center;
+}
+
 .encomendarbtn-detalhe-product:hover {
+    background-color: gray;
+    border-color: white;
+}
+
+.index-saiba-mais-btn {
+    background-color: crimson;
+    border-color: crimson;
+}
+
+.index-saiba-mais-btn:hover {
     background-color: gray;
     border-color: white;
 }
@@ -178,6 +204,11 @@ footer span a:hover {
 
 .card-body {
     text-align: center;
+}
+
+.link-carousel {
+    text-decoration: none;
+    color: crimson;
 }
 
 @media (max-width: 1400px) {
