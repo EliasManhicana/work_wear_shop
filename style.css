@@ -1,0 +1,390 @@
+body {
+    background-color: #F0F0F0;
+}
+
+.navbar {
+    background-color: crimson;
+}
+
+.novo-etiqueta {
+    background-color: crimson;
+    padding: 6px;
+    color: white;
+    border-radius: 10px;
+    margin-right: 50%;
+    font-size: smaller;
+    text-align: center;
+}
+
+footer {
+    background: crimson;
+    padding: 20px 23px;
+    color: #fff;
+    text-align: center;
+}
+
+footer span a {
+    color: #111;
+    text-decoration: none;
+}
+
+footer span a:hover {
+    text-decoration: underline;
+}
+
+/* produtos */ 
+
+.p-pagina-actual {
+    background-color: white;
+    padding: 10px;
+}
+
+.p-pagina-actual a {
+    text-decoration: none;
+    color: crimson;
+}
+
+.card-roupa {
+    width: 25%;
+}
+
+.card-roupa-detalhe {
+    width: 50%;
+    border-radius: 10px;
+    outline: 1px solid rgba(255, 255, 255, .5);
+    outline-offset: -8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .1);
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+}
+
+.card-img-detalhe {
+    width: 50%;
+}
+
+.img-detalhe {
+    width: 100%;
+    border-radius: 10px;
+    outline: 1px solid rgba(255, 255, 255, .5);
+    outline-offset: -8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .1);
+    position: relative;
+    overflow: hidden;
+}
+
+.tittle-detalhe-product {
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.price-detalhe-product {
+    font-size: 35px;
+    font-weight: 700;
+    color: crimson;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.encomendarbtn-detalhe-product {
+    width: 100%;
+    background-color: crimson;
+    border-color: crimson;
+}
+
+.encomendarbtn-detalhe-product:hover {
+    background-color: gray;
+    border-color: white;
+}
+
+.card-conteudo {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    outline: 1px solid rgba(255, 255, 255, .5);
+    outline-offset: -8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .1);
+    position: relative;
+    overflow: hidden;
+}
+
+.card-img {
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .75s;
+}
+
+.card-conteudo:hover .card-img {
+    transform: scale(1.50);
+}
+
+.link-card-conteudo {
+    text-decoration: none;
+    color: crimson;
+}
+
+.link-card-conteudo:hover {
+    text-decoration: none;
+    color: rgb(179, 50, 78);
+}
+
+.b-num-modelos {
+    background-color: crimson;
+}
+
+.h5-cat {
+    padding: 10px;
+}
+
+.h5-titulo-cat {
+    padding: 10px;
+    background-color: crimson;
+    color: white;
+}
+
+.cat-men-item {
+    color: gray;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cat-men-item:hover {
+    background-color: #EEEEEE;
+}
+
+.cat-men-item .badge {
+    float: right;
+}
+
+.pag-div {
+    margin-top: 25px;
+    background-color: white;
+    padding: 10px;
+}
+
+.card-title {
+    font-size: small;
+}
+
+.card-body {
+    text-align: center;
+}
+
+@media (max-width: 1400px) {
+    
+    .card-roupa {
+        width: 25%;
+    }
+   
+}
+
+@media (max-width: 1200px) {
+    
+    .card-roupa {
+        width: 25%;
+    }
+
+    .menu-lateral {
+        width: 100%;
+    }
+
+    .page-lateral-content {
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 1000px) {
+    
+    .card-roupa {
+        width: 50%;
+    }
+
+    .menu-lateral {
+        width: 100%;
+    }
+
+    .page-lateral-content {
+        width: 100%;
+    }
+
+    .card-roupa-detalhe {
+        width: 95%;
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right: 20px;
+    }
+    
+    .card-img-detalhe {
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 900px) {
+    
+    .card-roupa {
+        width: 50%;
+    }
+
+    .menu-lateral {
+        width: 100%;
+    }
+
+    .page-lateral-content {
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 800px) {
+    
+    .card-roupa {
+        width: 50%;
+    }
+
+    .menu-lateral {
+        width: 100%;
+    }
+
+    .page-lateral-content {
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 700px) {
+    
+    .card-roupa {
+        width: 50%;
+    }
+
+    .menu-lateral {
+        width: 100%;
+    }
+
+    .page-lateral-content {
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 600px) {
+    
+    .card-roupa {
+        width: 100%;
+    }
+
+    .menu-lateral {
+        width: 100%;
+    }
+
+    .page-lateral-content {
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 500px) {
+    
+    .card-roupa {
+        width: 100%;
+    }
+
+    .menu-lateral {
+        width: 100%;
+    }
+
+    .page-lateral-content {
+        width: 100%;
+    }
+
+    
+}
+
+
+@media (max-width: 400px) {
+    
+    .card-roupa {
+        width: 100%;
+    }
+
+    .menu-lateral {
+        width: 100%;
+    }
+
+    .page-lateral-content {
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 300px) {
+    
+    .card-roupa {
+        width: 100%;
+    }
+
+    .menu-lateral {
+        width: 100%;
+    }
+
+    .page-lateral-content {
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 200px) {
+    
+    .card-roupa {
+        width: 100%;
+    }
+
+    .menu-lateral {
+        width: 100%;
+    }
+
+    .page-lateral-content {
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 100px) {
+    
+    .card-roupa {
+        width: 100%;
+    }
+
+    .menu-lateral {
+        width: 100%;
+    }
+
+    .page-lateral-content {
+        width: 100%;
+    }
+
+    
+
+    
+}
