@@ -43,6 +43,10 @@ footer span a:hover {
     padding: 10px;
 }
 
+.p-pagina-actual-2 {
+    background-color: black;
+}
+
 .p-pagina-actual a {
     text-decoration: none;
     color: crimson;
